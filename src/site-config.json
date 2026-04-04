@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Masonry",
+    "phone": "555-mas-r93",
+    "category": "masonry",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  "design": {
+    "preset": {
+      "id": "masonry-dark-premium",
+      "categoryGroup": "masonry",
+      "name": "Dark Premium",
+      "recipeFile": "masonry/dark-premium.astro",
+      "colors": {
+        "primary": "#D4A574",
+        "primaryDark": "#aa845d",
+        "primaryLight": "#eedbc7",
+        "secondary": "#2A2A2A",
+        "accent": "#dab389",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "masonry/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Philadelphia's Trusted Masonry Experts",
+      "heroSubline": "Preserving the City of Brotherly Love, one brick at a time. Serving historic neighborhoods with precision craftsmanship since 2012.",
+      "aboutTitle": "Built on Philadelphia Pride",
+      "aboutText": [
+        "Founded in 2012, Onyx Masonry grew from a single truck operation to Philadelphia's most requested masonry team. We've repointed Rittenhouse Square brownstones and rebuilt Fishtown garden walls through blizzards and heat waves alike.",
+        "Our approach blends traditional techniques with modern materials. Whether matching 19th century brickwork or installing weather-resistant stoops, we treat every project like it's on our own block.",
+        "From sponsoring neighborhood cleanups to training local apprentices, we're invested in Philadelphia's future as much as its historic fabric."
+      ],
+      "valueProps": [
+        {
+          "title": "Freeze-Thaw Specialists",
+          "description": "Our custom mortar mixes withstand Philadelphia's dramatic temperature swings, preventing costly seasonal damage."
+        },
+        {
+          "title": "Historic District Approved",
+          "description": "Philadelphia Historical Commission-compliant repairs that maintain architectural integrity."
+        },
+        {
+          "title": "Rowhouse Whisperers",
+          "description": "Decades of experience navigating tight alleys and shared walls in Center City's narrow lots."
+        },
+        {
+          "title": "Storm-Ready Repairs",
+          "description": "Nor'easter-proof solutions from basement waterproofing to chimney reinforcements."
+        }
+      ],
+      "ctaHeadline": "Let's Fortify Your Philly Property",
+      "ctaSubline": "Schedule your free assessment today - we'll identify vulnerabilities before winter arrives."
+    },
+    "services": [
+      {
+        "slug": "brick-repointing",
+        "name": "Historic Brick Repointing",
+        "shortDescription": "Breathing new life into Philadelphia's aging brickwork with period-accurate techniques.",
+        "description": "Philadelphia's freeze-thaw cycles wreak havoc on century-old mortar joints. Our craftsmen carefully remove degraded mortar without damaging original bricks, then repoint with custom lime-based mixes that match historic compositions. For Rittenhouse Square townhomes and Society Hill row houses alike, we replicate traditional tuckpointing styles while improving weather resistance.\n\nSpecial attention goes into preventing efflorescence - that white salt buildup common on Philly's brick facades. We analyze your wall's exposure to road salt from winter storms and adjust our mixtures accordingly. All work includes a 10-year guarantee against spalling and moisture penetration.",
+        "process": [
+          "Step 1: Hand-remove deteriorated mortar to 2x joint depth",
+          "Step 2: Match original mortar color/texture using local aggregate",
+          "Step 3: Install weather-resistant backer rod in deep joints",
+          "Step 4: Apply new mortar with hawk and trowel for historic accuracy"
+        ],
+        "benefits": [
+          "Prevents structural damage from water infiltration",
+          "Maintains historic district compliance",
+          "Reduces heat loss through gaps",
+          "Eliminates rodent entry points"
+        ],
+        "faq": [
+          {
+            "question": "How often should Philadelphia row houses be repointed?",
+            "answer": "Most Center City properties need repointing every 30-50 years. We inspect for telltale signs like crumbling mortar or loose bricks during free assessments."
+          },
+          {
+            "question": "Will repointing disrupt my neighbors in attached homes?",
+            "answer": "We use dust containment systems and coordinate with adjacent property owners - critical for tight Queen Village lots."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-stoop-repair",
+        "name": "Stoop Restoration",
+        "shortDescription": "Rebuilding Philadelphia's iconic entry steps to withstand decades more use.",
+        "description": "The classic Philly stoop faces unique challenges - from winter salt damage to settling in our clay-heavy soil. We don't just patch cracks; we completely reconstruct problematic steps using steel-reinforced concrete mixed for our freeze-thaw climate. For historic districts like Old City, we replicate original profiles and decorative elements.\n\nOur process begins with analyzing why your stoop failed. In South Philly, we often find inadequate original footings. In Manayunk, it's typically water infiltration behind steps. Solutions range from helical piers for stabilization to waterproof membranes beneath new treads. We also install slip-resistant finishes - crucial for those icy February mornings.",
+        "process": [
+          "Step 1: Demolish damaged sections with minimal vibration",
+          "Step 2: Excavate and reinforce foundation as needed",
+          "Step 3: Pour custom forms matching original dimensions",
+          "Step 4: Apply durable finish coat with traction aggregate"
+        ],
+        "benefits": [
+          "Eliminates trip hazards",
+          "Improves accessibility with proper rise/run ratios",
+          "Prevents basement water seepage",
+          "Increases curb appeal"
+        ],
+        "faq": [
+          {
+            "question": "Why do Philadelphia stoops fail so often?",
+            "answer": "Many were built directly on unstable fill dirt. We install proper gravel bases and drainage to prevent recurring issues."
+          },
+          {
+            "question": "Can you match my original decorative elements?",
+            "answer": "Our workshop recreates everything from Colonial-era scalloping to Victorian-era bullnoses using historic molds."
+          }
+        ]
+      },
+      {
+        "slug": "chimney-rebuilding",
+        "name": "Chimney Restoration",
+        "shortDescription": "Securing Philadelphia's chimney stacks against harsh winters and high winds.",
+        "description": "Nor'easters topple dozens of Philadelphia chimneys each year. Our complete rebuilds use reinforced flue liners and aircraft cable bracing to prevent collapses. For brick chimneys in Chestnut Hill's stone homes, we carefully dismantle and rebuild section by section. In Fishtown's industrial conversions, we install stainless steel caps to prevent downdrafts.\n\nWe specialize in diagnosing subtle chimney leans - often the first sign of foundation issues in Philly's older homes. Thermal imaging helps identify heat-damaged mortar before it becomes hazardous. All work complies with Philadelphia's strict masonry code for attached dwellings, including firestop installation between row houses.",
+        "process": [
+          "Step 1: Remove compromised bricks/coping stones",
+          "Step 2: Install seismic reinforcement system",
+          "Step 3: Rebuild with high-temp refractory mortar",
+          "Step 4: Seal against water penetration"
+        ],
+        "benefits": [
+          "Prevents dangerous collapses",
+          "Improves draft efficiency",
+          "Reduces creosote buildup",
+          "Maintains property values"
+        ],
+        "faq": [
+          {
+            "question": "How urgent is chimney repair in Philadelphia?",
+            "answer": "Any visible lean or loose bricks requires immediate attention - winter winds can topple unstable stacks onto rowhouse roofs."
+          },
+          {
+            "question": "Do you work on industrial flues in converted factories?",
+            "answer": "Yes, we've restored dozens of Northern Liberties loft chimneys using specialized high-capacity liners."
+          }
+        ]
+      },
+      {
+        "slug": "stone-foundation-repair",
+        "name": "Stone Foundation Stabilization",
+        "shortDescription": "Arresting settlement in Philadelphia's vintage stone basements.",
+        "description": "Many Philadelphia homes rest on 18th-19th century stone foundations prone to shifting in our region's clay soil. Unlike quick-fix contractors, we address root causes through proper drainage and helical pier installation. For Society Hill's colonial homes, we meticulously repack loose rubble stone with hydraulic lime grout - strong enough to stabilize, flexible enough to accommodate movement.\n\nOur process begins with laser leveling to identify problem areas. In Queen Village, we often find deteriorated mortar washed out by old downspout drainage. In Germantown, it's typically tree root intrusion. Solutions range from French drain installation to carbon fiber wall reinforcement, always preserving original character.",
+        "process": [
+          "Step 1: Excavate problem areas with archaeological care",
+          "Step 2: Install perimeter drainage where needed",
+          "Step 3: Inject stabilizing grout or install piers",
+          "Step 4: Re-point with flexible historic mortar"
+        ],
+        "benefits": [
+          "Stops worsening settlement",
+          "Prevents basement moisture",
+          "Preserves original masonry",
+          "Avoids costly structural repairs"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my stone foundation needs repair?",
+            "answer": "Look for stair-step cracks in above-ground brickwork or doors/windows that no longer close properly - common in Fairmount's older homes."
+          },
+          {
+            "question": "Will this disrupt my finished basement?",
+            "Answer": "We use minimally invasive techniques - most projects don't require removing paneling or flooring."
+          }
+        ]
+      },
+      {
+        "slug": "garden-wall-construction",
+        "name": "Garden Wall Construction",
+        "shortDescription": "Building private outdoor spaces worthy of Philadelphia's hidden gardens.",
+        "description": "From Spruce Hill's community gardens to Rittenhouse Square's private oases, we build walls that complement Philadelphia's architectural diversity. Our load-bearing designs incorporate proper frost footings - critical in our freeze-thaw climate. For historic districts, we source reclaimed brick to match surrounding buildings. Modern installations feature weather-resistant segmental blocks with classic Philly styling.\n\nWe pay special attention to drainage behind walls, a common failure point in our heavy rains. All designs include weep holes and gravel backfill to prevent hydrostatic pressure buildup. For sloped lots in East Falls, we engineer retaining walls with proper terracing and reinforcement.",
+        "process": [
+          "Step 1: Excavate to frost line (36\" in Philadelphia)",
+          "Step 2: Install compacted stone base",
+          "Step 3: Lay courses with proper bonding patterns",
+          "Step 4: Cap with durable coping stones"
+        ],
+        "benefits": [
+          "Creates usable outdoor space",
+          "Controls erosion on slopes",
+          "Provides privacy screening",
+          "Reduces street noise"
+        ],
+        "faq": [
+          {
+            "question": "What permits are needed for Philly garden walls?",
+            "answer": "Walls over 4' require permits - we handle all paperwork including zoning reviews in protected districts."
+          },
+          {
+            "question": "Can you match my home's historic brick?",
+            "answer": "Our network of local suppliers carries 200+ historic brick types common in Philadelphia architecture."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marianne K.",
+        "rating": 5,
+        "service": "Brick Repointing",
+        "text": "Onyx saved our 1920s Graduate Hospital row house after a disastrous experience with another contractor. They matched the original mortar color perfectly and reinforced our parapet wall to prevent future leaks. Two winters later - zero new cracks despite record snowfall.",
+        "date": "2025-03-14"
+      },
+      {
+        "name": "Devon R.",
+        "rating": 5,
+        "service": "Stoop Restoration",
+        "text": "Our Brewerytown stoop was literally crumbling beneath us. Onyx not only rebuilt it with proper footings, but added subtle traction strips that have prevented slips during icy winters. They even matched the original 1930s bullnose detail our neighbors admired.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lisa T.",
+        "rating": 5,
+        "service": "Chimney Rebuilding",
+        "text": "When Hurricane Ida damaged our Mt. Airy chimney, Onyx had it braced within 24 hours. Their meticulous reconstruction included installing a new flue liner and custom copper flashing that handles our heavy rains beautifully. The mason even pointed out some roof issues we hadn't noticed.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Stone Foundation Repair",
+        "text": "Our Old City tavern's 18th century foundation was shifting alarmingly. Onyx's helical pier system stabilized everything without disturbing the original stonework. They uncovered and repaired old drainage tunnels that were causing the problem - now our basement stays dry even during Nor'easters.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Nia W.",
+        "rating": 5,
+        "service": "Garden Wall Construction",
+        "text": "Onyx transformed our Passyunk Square backyard with a beautiful brick wall that matches our home's 1910 facade. They engineered proper drainage that's handled record rainfall without a single leak. The mason even salvaged some old bricks from our property to incorporate into the design.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Thomas B.",
+        "rating": 5,
+        "service": "Emergency Masonry Repair",
+        "text": "When a drunk driver hit our Fairmount garden wall at 2AM, Onyx had a crew out by sunrise to secure the structure. Their temporary shoring held until we could schedule a full rebuild that perfectly matched the original. Crisis handled with zero stress on our part.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Philadelphia Masonry Contractors | Brick & Stone Experts",
+        "description": "Trusted Philadelphia masons specializing in historic brick repointing, stoop repairs, and foundation stabilization since 2012."
+      },
+      "about": {
+        "title": "About Our Philadelphia Masonry Company",
+        "description": "Local masonry crew preserving Philadelphia's architectural heritage through weather-resistant repairs and historic restoration."
+      },
+      "services": {
+        "title": "Philadelphia Masonry Services | Onyx Masonry",
+        "description": "Complete masonry solutions for Philadelphia homes including chimney repairs, garden walls, and freeze-thaw damage prevention."
+      },
+      "contact": {
+        "title": "Contact Philadelphia's Masonry Specialists",
+        "description": "Schedule your free masonry assessment with Onyx - serving Philadelphia's historic neighborhoods since 2012."
+      },
+      "reviews": {
+        "title": "Philadelphia Masonry Reviews | Onyx Masonry",
+        "description": "See why Philadelphia homeowners trust Onyx for historic masonry repairs and weatherproofing solutions."
+      },
+      "service-areas": {
+        "title": "Philadelphia Masonry Service Areas | Onyx Masonry",
+        "description": "Serving Philadelphia and surrounding communities with complete masonry restoration and repair services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Philadelphia",
+        "slug": "philadelphia-pa",
+        "state": "PA",
+        "content": "Onyx Masonry proudly serves Philadelphia, the heart of Pennsylvania and a city rich in history and architectural beauty. Our expert masons specialize in restoring historic brickwork, constructing durable stone walls, and creating custom masonry features that enhance both residential and commercial properties. Whether you need repairs for a classic Philadelphia rowhome or a new installation for a modern building, we deliver top-quality craftsmanship tailored to the city's unique character.\n\nPhiladelphia's diverse neighborhoods each have their own architectural styles, from the cobblestone streets of Old City to the brownstones of Rittenhouse Square. Our team understands these local nuances and uses materials and techniques that preserve the integrity of each area. We take pride in contributing to the preservation and enhancement of Philadelphia's iconic masonry structures.",
+        "localContext": "Philadelphia's historic architecture demands skilled masons who understand preservation techniques.",
+        "nearbyAreas": [
+          "Conshohocken",
+          "Bala Cynwyd",
+          "Glenside"
+        ]
+      },
+      {
+        "city": "Conshohocken",
+        "slug": "conshohocken-pa",
+        "state": "PA",
+        "content": "Onyx Masonry brings exceptional masonry services to Conshohocken, a vibrant borough along the Schuylkill River. We specialize in creating beautiful stone patios, retaining walls, and brick facades that complement the area's mix of historic and contemporary homes. Our work in Conshohocken often involves blending traditional masonry techniques with modern designs to meet the needs of this growing community.\n\nMany Conshohocken properties feature stunning river views, and our outdoor masonry work is designed to enhance these natural assets. From fire pits to elegant walkways, we create functional and attractive hardscape elements that withstand the region's seasonal changes while adding value to your property.",
+        "localContext": "Conshohocken's riverside location makes outdoor masonry features particularly valuable.",
+        "nearbyAreas": [
+          "Plymouth Meeting",
+          "West Conshohocken",
+          "Lafayette Hill"
+        ]
+      },
+      {
+        "city": "Ardmore",
+        "slug": "ardmore-pa",
+        "state": "PA",
+        "content": "Serving Ardmore's distinguished homes and businesses, Onyx Masonry offers premium masonry solutions for this historic Main Line community. We frequently work on the area's classic stone mansions, providing careful restoration of original features while incorporating modern structural support. Our chimney repair and repointing services are particularly sought after in Ardmore's older neighborhoods.\n\nFor newer constructions, we create custom masonry elements that match Ardmore's sophisticated aesthetic. Whether it's a grand stone entrance, a decorative brick wall, or a cozy outdoor fireplace, our designs reflect the elegance and quality that Ardmore residents expect.",
+        "localContext": "Ardmore's Main Line heritage requires masonry that meets high aesthetic standards.",
+        "nearbyAreas": [
+          "Haverford",
+          "Bryn Mawr",
+          "Wynnewood"
+        ]
+      },
+      {
+        "city": "Media",
+        "slug": "media-pa",
+        "state": "PA",
+        "content": "Onyx Masonry enhances Media's charming streetscapes with our expert brick and stone work. Known as 'Everybody's Hometown,' Media features a blend of historic and contemporary architecture where quality masonry makes a significant impact. We specialize in creating inviting storefronts, durable sidewalks, and beautiful residential features that contribute to Media's small-town appeal.\n\nOur work in Media often involves collaborating with local businesses to create distinctive facades that attract customers while maintaining the borough's character. For homeowners, we design outdoor living spaces that take advantage of Media's pleasant climate and community-oriented atmosphere.",
+        "localContext": "Media's walkable downtown benefits from attractive, durable masonry features.",
+        "nearbyAreas": [
+          "Swarthmore",
+          "Springfield",
+          "Wallingford"
+        ]
+      },
+      {
+        "city": "Doylestown",
+        "slug": "doylestown-pa",
+        "state": "PA",
+        "content": "In Doylestown, Onyx Masonry preserves and enhances the borough's rich architectural heritage through skilled craftsmanship. We frequently work on the area's historic fieldstone buildings, using traditional techniques to maintain their authenticity while ensuring structural integrity. Our custom stonework complements Doylestown's artsy, sophisticated vibe, whether for residential or commercial properties.\n\nDoylestown's four-season climate demands masonry that can withstand temperature fluctuations. We use high-quality materials and proper installation methods to create features that remain beautiful and functional year after year, from decorative garden walls to substantial stone foundations.",
+        "localContext": "Doylestown's historic district requires masonry specialists familiar with preservation work.",
+        "nearbyAreas": [
+          "New Hope",
+          "Warrington",
+          "Chalfont"
+        ]
+      },
+      {
+        "city": "Newtown",
+        "slug": "newtown-pa",
+        "state": "PA",
+        "content": "Onyx Masonry serves Newtown with premium masonry solutions that match the borough's upscale character. We design and build elegant brick walkways, stone veneer accents, and durable retaining walls that enhance Newtown's beautiful properties. Our work often involves creating outdoor living spaces that extend homeowners' enjoyment of their properties throughout the seasons.\n\nNewtown's mix of historic and new construction presents interesting challenges and opportunities for masonry work. We take pride in creating seamless transitions between old and new elements, whether we're restoring a colonial-era chimney or constructing a modern outdoor kitchen with stone countertops.",
+        "localContext": "Newtown's affluent neighborhoods demand high-end masonry with meticulous attention to detail.",
+        "nearbyAreas": [
+          "Yardley",
+          "Langhorne",
+          "Washington Crossing"
+        ]
+      },
+      {
+        "city": "West Chester",
+        "slug": "west-chester-pa",
+        "state": "PA",
+        "content": "Onyx Masonry contributes to West Chester's vibrant streetscapes with our expert brick and stone work. The borough's historic downtown and surrounding residential areas benefit from our preservation expertise and innovative new designs. We frequently work on the area's distinctive Victorian homes, providing sensitive repairs and compatible new construction.\n\nWest Chester's active community life makes outdoor masonry features particularly valuable. We design and build patios, walkways, and walls that create inviting spaces for entertaining and relaxation, using materials that complement the area's architectural diversity.",
+        "localContext": "West Chester's mix of historic and collegiate architecture requires versatile masonry solutions.",
+        "nearbyAreas": [
+          "Exton",
+          "Malvern",
+          "Downingtown"
+        ]
+      },
+      {
+        "city": "Jenkintown",
+        "slug": "jenkintown-pa",
+        "state": "PA",
+        "content": "In Jenkintown, Onyx Masonry provides skilled craftsmanship for the borough's diverse range of properties. We specialize in creating beautiful brick facades, stone accents, and durable walkways that enhance Jenkintown's charming streets. Our work often involves updating older properties with masonry features that increase curb appeal while respecting the neighborhood's character.\n\nJenkintown's compact, walkable layout makes front-facing masonry elements particularly important. We design and install features that create strong first impressions, from decorative columns to welcoming entryways, using materials that stand up to heavy foot traffic and seasonal weather changes.",
+        "localContext": "Jenkintown's dense residential areas benefit from masonry that maximizes curb appeal.",
+        "nearbyAreas": [
+          "Abington",
+          "Cheltenham",
+          "Elkins Park"
+        ]
+      },
+      {
+        "city": "Ambler",
+        "slug": "ambler-pa",
+        "state": "PA",
+        "content": "Onyx Masonry enhances Ambler's distinctive properties with high-quality brick and stone work. We frequently work on the borough's historic theater district buildings, providing restoration services that maintain their architectural integrity. For residential clients, we create beautiful outdoor living spaces that take advantage of Ambler's small-town charm and community spirit.\n\nAmbler's revitalized downtown area presents exciting opportunities for creative masonry solutions. We design and install features that contribute to the borough's welcoming atmosphere, from decorative brickwork to functional yet attractive retaining walls that manage the area's gentle slopes.",
+        "localContext": "Ambler's ongoing revitalization benefits from masonry that blends historic and contemporary styles.",
+        "nearbyAreas": [
+          "Blue Bell",
+          "Fort Washington",
+          "Maple Glen"
+        ]
+      },
+      {
+        "city": "Phoenixville",
+        "slug": "phoenixville-pa",
+        "state": "PA",
+        "content": "Onyx Masonry serves Phoenixville with masonry solutions that complement the borough's industrial heritage and vibrant renewal. We specialize in adaptive reuse projects that preserve the character of former factory buildings while creating modern living and working spaces. Our brick and stone work contributes to Phoenixville's unique aesthetic, from downtown commercial properties to riverside residences.\n\nPhoenixville's active arts scene inspires creative masonry applications. We design and build features that serve as both functional elements and artistic statements, using materials that reference the area's steel-making past while meeting contemporary standards of durability and beauty.",
+        "localContext": "Phoenixville's industrial-chic aesthetic calls for masonry that balances ruggedness and refinement.",
+        "nearbyAreas": [
+          "Royersford",
+          "Collegeville",
+          "Kimberton"
+        ]
+      },
+      {
+        "city": "Norristown",
+        "slug": "norristown-pa",
+        "state": "PA",
+        "content": "Onyx Masonry provides essential masonry services to Norristown's diverse range of properties. We work on everything from historic courthouse buildings to modern residential developments, applying appropriate techniques for each context. Our team is skilled at restoring Norristown's aging brick structures while also creating new masonry features that enhance the borough's ongoing revitalization.\n\nNorristown's urban environment demands durable, low-maintenance masonry solutions. We design and install features that stand up to heavy use and variable weather conditions, from secure retaining walls to attractive, vandal-resistant public space elements.",
+        "localContext": "Norristown's mix of historic and new construction requires adaptable masonry expertise.",
+        "nearbyAreas": [
+          "Bridgeport",
+          "East Norriton",
+          "West Norriton"
+        ]
+      },
+      {
+        "city": "Hatboro",
+        "slug": "hatboro-pa",
+        "state": "PA",
+        "content": "In Hatboro, Onyx Masonry enhances the borough's charming downtown and residential areas with quality brick and stone work. We specialize in creating welcoming storefronts and attractive home features that contribute to Hatboro's small-town appeal. Our work often involves preserving historic details while incorporating modern functionality.\n\nHatboro's community events and pedestrian-friendly layout make outdoor masonry features particularly valuable. We design and build patios, walkways, and walls that create inviting spaces for socializing and commerce, using materials that complement the area's traditional aesthetic.",
+        "localContext": "Hatboro's walkable business district benefits from attractive, durable masonry features.",
+        "nearbyAreas": [
+          "Warminster",
+          "Horsham",
+          "Willow Grove"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brick-repointing": "/images/service-brick-repointing.webp",
+      "chimney-rebuilding": "/images/service-chimney-rebuilding.webp",
+      "stone-foundation-repair": "/images/service-stone-foundation-repair.webp",
+      "concrete-stoop-repair": "/images/service-concrete-stoop-repair.webp",
+      "garden-wall-construction": "/images/service-garden-wall-construction.webp"
+    },
+    "servicesResponsive": {
+      "brick-repointing": {
+        "src": "/images/service-brick-repointing.webp",
+        "srcset": "/images/service-brick-repointing-400w.webp 400w, /images/service-brick-repointing-800w.webp 800w, /images/service-brick-repointing-1200w.webp 1200w, /images/service-brick-repointing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chimney-rebuilding": {
+        "src": "/images/service-chimney-rebuilding.webp",
+        "srcset": "/images/service-chimney-rebuilding-400w.webp 400w, /images/service-chimney-rebuilding-800w.webp 800w, /images/service-chimney-rebuilding-1200w.webp 1200w, /images/service-chimney-rebuilding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stone-foundation-repair": {
+        "src": "/images/service-stone-foundation-repair.webp",
+        "srcset": "/images/service-stone-foundation-repair-400w.webp 400w, /images/service-stone-foundation-repair-800w.webp 800w, /images/service-stone-foundation-repair-1200w.webp 1200w, /images/service-stone-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-stoop-repair": {
+        "src": "/images/service-concrete-stoop-repair.webp",
+        "srcset": "/images/service-concrete-stoop-repair-400w.webp 400w, /images/service-concrete-stoop-repair-800w.webp 800w, /images/service-concrete-stoop-repair-1200w.webp 1200w, /images/service-concrete-stoop-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "garden-wall-construction": {
+        "src": "/images/service-garden-wall-construction.webp",
+        "srcset": "/images/service-garden-wall-construction-400w.webp 400w, /images/service-garden-wall-construction-800w.webp 800w, /images/service-garden-wall-construction-1200w.webp 1200w, /images/service-garden-wall-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
